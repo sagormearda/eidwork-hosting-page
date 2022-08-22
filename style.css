@@ -1,0 +1,604 @@
+        * {
+            padding: 0;
+            margin: 0;
+        }
+        
+        .container {
+            width: 100%;
+            /* background-color: blue; */
+        }
+        
+        .header {
+            height: 400px;
+            width: 100%;
+            /* background-color: red; */
+            background-image: url(./images\ \(17\).jpg);
+            background-position: 0;
+            background-repeat: no-repeat;
+            background-size: cover;
+            display: flex;
+        }
+        
+        .text {
+            height: 80%;
+            width: 30%;
+            /* background-color: royalblue; */
+            margin-left: 220px;
+            text-align: justify;
+        }
+        
+        .text h2 {
+            text-align: justify;
+            text-transform: capitalize;
+            color: rgb(24, 22, 22);
+            padding-top: 30px;
+            color: lightgray;
+        }
+        
+        .text h1 {
+            text-transform: capitalize;
+            padding-top: 30px;
+            color: yellow;
+        }
+        
+        .text p {
+            text-transform: capitalize;
+            font-size: 18px;
+            color: goldenrod;
+        }
+        
+        .box {
+            width: 50%;
+            padding: 10px;
+            float: left;
+            color: rgb(17, 16, 16);
+        }
+        
+        .box input {
+            margin: 10px;
+        }
+        
+        .box {
+            color: white;
+        }
+        
+        .box-1 {
+            padding-top: 10px;
+            /* width: 30%; */
+            /* color: rgb(19, 13, 13); */
+            color: white;
+        }
+        
+        .box-1 input {
+            margin: 10px;
+        }
+        
+        .text-2 {
+            width: 20%;
+            height: 80%;
+            /* background-color: aqua; */
+            margin: auto;
+            text-align: center;
+            color: white;
+        }
+        
+        .text-2 h4 {
+            text-transform: capitalize;
+            font-size: 13px;
+            padding-top: 50px;
+        }
+        
+        .text-2 p {
+            font-size: 40px;
+            margin-bottom: 30px;
+        }
+        
+        sub {
+            font-size: 18px;
+        }
+        
+        .text-2 a {
+            text-decoration: none;
+            text-transform: capitalize;
+            padding: 10px;
+            background-color: yellow;
+            color: black;
+        }
+        
+        .text-2 a:hover {
+            background-color: aqua;
+            color: blueviolet;
+        }
+        
+        .first-display {
+            height: 370px;
+            width: 100%;
+            background-color: rgb(184, 169, 169);
+        }
+        
+        .sub-display {
+            height: 370px;
+            width: 70%;
+            /* background-color: blue; */
+            margin: auto;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+        }
+        
+        .sub-display-text {
+            height: 340px;
+            width: 25%;
+            background-color: blanchedalmond;
+            margin-top: 20px;
+            text-align: center;
+            box-shadow: 0px 0px 6px black;
+        }
+        
+        .text-1 {
+            height: 120px;
+            width: 95%;
+            background-color: yellow;
+            text-align: justify;
+            padding-left: 11px;
+        }
+        
+        .sub-display-text h3 {
+            padding-top: 10px;
+            font-size: 22px;
+            text-transform: capitalize;
+        }
+        
+        .sub-display-text p {
+            text-transform: capitalize;
+            font-size: 14px;
+            color: teal;
+        }
+        
+        .sub-display-text h2 {
+            padding-top: 10px;
+            font-size: 32px;
+            color: teal;
+        }
+        
+        .sub-display-text p {
+            text-align: justify;
+            margin-bottom: 6px;
+            color: black;
+            margin-bottom: 10px;
+        }
+        
+        .sub-display-text a {
+            padding: 5px 50px;
+            background-color: teal;
+            text-transform: capitalize;
+            text-decoration: none;
+            color: white;
+        }
+        
+        .sub-display-text a:hover {
+            background-color: blue;
+        }
+        
+        .text-4 {
+            background-color: teal;
+            height: 120px;
+            width: 95%;
+            padding-left: 12px;
+        }
+        
+        .text-4 h3 {
+            text-align: justify;
+            color: white;
+        }
+        
+        .text-4 h5 {
+            text-transform: capitalize;
+            text-align: justify;
+            color: white;
+        }
+        
+        .text-4 h1 {
+            text-align: justify;
+            margin-top: 10px;
+            color: yellow;
+        }
+        
+        .text-6 h6 {
+            text-align: right;
+            /* padding-bottom: 30px; */
+        }
+        
+        .text-6 {
+            background-color: red;
+            width: 95%;
+            padding-left: 12px;
+        }
+        
+        .text-6 h3 {
+            text-align: justify;
+            color: white;
+        }
+        
+        .text-6 p {
+            color: white;
+        }
+        
+        .text-6 h2 {
+            text-align: justify;
+            color: goldenrod;
+        }
+        
+        .text-6 sub,
+        .text-4 sub {
+            color: white;
+        }
+        
+        .sagor {
+            height: 50px;
+            width: 50px;
+            background-color: yellow;
+            border-radius: 50%;
+            float: right;
+        }
+        
+        .sagor h6 {
+            margin-right: 15px;
+            padding-top: 10px;
+            text-transform: uppercase;
+        }
+        
+        .section-1 {
+            height: 250px;
+            width: 100%;
+            background-color: rgb(184, 169, 169);
+        }
+        
+        .section-2 {
+            height: 220px;
+            width: 70%;
+            /* background-color: aqua; */
+            margin: auto;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+        }
+        
+        .image {
+            height: 200px;
+            width: 30%;
+            /* background-color: brown; */
+            border-radius: 50%;
+            padding-top: 20px;
+        }
+        
+        .image img {
+            height: 100%;
+            width: 100%;
+            border-radius: 50%;
+        }
+        
+        .text-section {
+            height: 200px;
+            width: 60%;
+            /* background-color: brown; */
+            /* margin-right: 60px; */
+            padding-top: 20px;
+        }
+        
+        .text-section h1 {
+            text-transform: capitalize;
+        }
+        
+        .get-start {
+            height: 250px;
+            width: 100%;
+            background-color: whitesmoke;
+        }
+        
+        .get-start-1 {
+            height: 230px;
+            width: 70%;
+            /* background-color: aqua; */
+            margin: auto;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+        }
+        
+        .get-start-text {
+            height: 100%;
+            width: 60%;
+            /* background-color: blue; */
+        }
+        
+        .get-start-text h2 {
+            padding-top: 20px;
+            text-transform: capitalize;
+            font-size: 32px;
+        }
+        
+        .get-start-text p {
+            padding-top: 10px;
+            margin-bottom: 30px;
+        }
+        
+        .get-start-text a {
+            text-decoration: none;
+            text-transform: capitalize;
+            padding: 15px;
+            background-color: teal;
+            color: white;
+        }
+        
+        .get-start-text a:hover {
+            background-color: brown;
+            color: white;
+        }
+        
+        .get-image {
+            height: 100%;
+            width: 30%;
+            background-color: antiquewhite;
+            border-radius: 50%;
+        }
+        
+        .get-image img {
+            height: 100%;
+            width: 100%;
+            border-radius: 50%;
+        }
+        
+        .dolor {
+            height: 300px;
+            width: 100%;
+            background-color: lightgrey;
+        }
+        
+        .dolor-1 {
+            height: 250px;
+            width: 70%;
+            /* background-color: aqua; */
+            margin: auto;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        
+        .dolor-text {
+            height: 80px;
+            width: 40%;
+            /* background-color: blue; */
+            margin-top: 20px;
+        }
+        
+        .icon {
+            width: 20%;
+            height: 100%;
+            float: left;
+            margin: 0px 30px;
+            border-radius: 50%;
+            background-color: yellow;
+        }
+        
+        .icon i {
+            width: 20%;
+            height: 100%;
+            margin: 20px 20px;
+            font-size: 32px;
+            /* border-radius: 50%; */
+            /* background-color: yellow; */
+        }
+        
+        .dolor-text h2 {
+            text-transform: capitalize;
+            font-size: 20px;
+            color: teal;
+            text-align: justify;
+        }
+        
+        .dolor-text {
+            text-align: justify;
+        }
+        
+        .megna {
+            height: 250px;
+            width: 100%;
+            background-color: teal;
+        }
+        
+        .megna-1 {
+            height: 100%;
+            width: 70%;
+            /* background-color: teal; */
+            margin: auto;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+        }
+        
+        .megna-2 {
+            height: 100%;
+            width: 30%;
+            /* background-color: rgb(0, 4, 255); */
+            /* text-align: center; */
+        }
+        
+        .image-6 {
+            height: 100px;
+            width: 100px;
+            margin: auto;
+            border-radius: 50%;
+        }
+        
+        .image-6 img {
+            height: 100%;
+            width: 100%;
+            border-radius: 50%;
+            background-color: antiquewhite;
+        }
+        
+        .megna-2 p {
+            margin-top: 40px;
+            margin-bottom: 10px;
+            color: white;
+        }
+        
+        .megna-2 a {
+            text-decoration: none;
+            text-transform: capitalize;
+            padding: 10px;
+            color: yellow;
+        }
+        
+        .reseller {
+            height: 400px;
+            width: 100%;
+            background-color: lightgray;
+        }
+        
+        .reseller-1 {
+            height: 100%;
+            width: 70%;
+            /* background-color: blue; */
+            margin: auto;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+        
+        .reseller-3 {
+            height: 54%;
+            width: 20%;
+            /* background-color: aqua; */
+            margin-top: 10px;
+            margin-left: 10px;
+        }
+        
+        .reseller-4 {
+            height: 95%;
+            width: 70%;
+            background-color: whitesmoke;
+            margin: 10px;
+            box-shadow: 1 px 1px 2px 0px black;
+        }
+        /* .reseller-3 a {
+         padding: 10px;
+            background-color: teal;
+            height: 20px;
+            width: 100%;
+            padding: 10px 50px;
+        }  */
+        
+        .feautures {
+            height: 30%;
+            width: 40%;
+            float: left;
+            padding-left: 50px;
+        }
+        
+        .reseller-4 h1 {
+            text-transform: capitalize;
+            padding-left: 40px;
+            margin-bottom: 20px;
+        }
+        
+        .feautures h3 {
+            color: teal;
+            padding-bottom: 5px;
+        }
+        
+        .monia {
+            height: 30px;
+            width: 90%;
+            background-color: teal;
+            margin: 10px;
+        }
+        
+        .monia a {
+            text-decoration: none;
+            text-transform: capitalize;
+            font-size: 17px;
+            color: white;
+        }
+        
+        .reseller-3 h5 {
+            padding: 10px;
+            background-color: whitesmoke;
+            box-shadow: 0px 0px 7px black;
+        }
+        
+        .subscribe {
+            height: 100px;
+            width: 100%;
+            background-color: yellow;
+        }
+        
+        .subcribe-4 {
+            margin: auto;
+            height: 100%;
+            width: 70%;
+            /* background-color: aqua; */
+        }
+        
+        .subscribe-5 {
+            height: 100%;
+            width: 100%;
+            font-size: 20px;
+            text-transform: capitalize;
+            /* color: teal; */
+        }
+        
+        .subscribe-5 input {
+            height: 30px;
+            width: 73%;
+            margin-top: 10px;
+        }
+        
+        #lorem {
+            width: 10%;
+            background-color: teal;
+            color: white;
+        }
+        
+        .subscribe-5 p {
+            font-size: 15px;
+            padding-top: 10px;
+            color: rgb(2, 87, 87);
+        }
+        
+        .footer {
+            height: 300px;
+            width: 100%;
+            background-color: teal;
+        }
+        
+        .footer-1 {
+            height: 100%;
+            width: 70%;
+            /* background-color: aqua; */
+            margin: auto;
+            display: flex;
+        }
+        
+        .footer-3 {
+            height: 100%;
+            width: 30%;
+            margin-top: 20px;
+        }
+        
+        .footer-3 h3 {
+            text-transform: capitalize;
+            color: white;
+        }
+        
+        .footer-3 p {
+            margin-top: 15px;
+            color: white;
+        }
+        
+        .footer-3 a {
+            text-decoration: none;
+            color: yellow;
+        }
